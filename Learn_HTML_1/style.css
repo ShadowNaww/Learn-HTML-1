@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+  background-color: #EDEDED;
+}
+
+.nav {
+  background-color: #171717;
+  display: flex;
+  justify-content: space-between;
+}
+
+@font-face {
+  font-family: HallowenFonts;
+  src: url(assets/Magnificent\ Serif.ttf);
+}
+
+@font-face {
+  font-family: MainFonts;
+  src: url(assets/OpenSans-Bold.ttf);
+}
+
+.nav h1 {
+  color: #ff8800;
+  padding: 20px;
+  font-family: HallowenFonts;
+  font-size: 25px;
+  padding-left: 50px;
+}
+
+.nav ul li{
+  margin: 0px;
+  display: inline-block;
+  list-style-type: none;
+  padding: 30px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  font-family: MainFonts;
+  padding: 20px;
+  color: #ff8800;
+  margin: 0px;
+}
+
+.nav ul li a:hover{
+  color: #EDEDED;
+}
+
+.heading {
+  background-color: #2d2459;
+  display: flex;
+  padding: 0px;
+  margin-bottom: 30px;
+}
+
+.heading div.desc {
+  color: #EDEDED;
+  padding: 80px;
+  padding-right: 80px;
+  font-family: MainFonts;
+}
+
+.heading h1 {
+  color: #ff8800;
+} 
+
+.heading p {
+  margin-bottom: 50px;
+}
+
+
+.heading h2 a{
+  text-decoration: none;
+  color: #EDEDED;
+  background-color: #ff8800;
+  border-radius: 5%;
+  border-left: solid;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.heading h2 a:hover {
+  border-radius: 5%;
+  border-left: solid #EDEDED;
+  margin-left: 20px;
+}
+
+.heading img {
+  width: 570px;
+  height: 570px;
+  margin-right: 30px;
+}
